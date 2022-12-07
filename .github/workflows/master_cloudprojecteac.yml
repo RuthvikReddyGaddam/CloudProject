@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'cloudprojecteac'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_668775B503324F82814904D81CC85FC9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D62B37E32FE8454A98BAD72C54A3B183 }}
           package: .
