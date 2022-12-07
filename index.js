@@ -114,6 +114,9 @@ app.get("/home", (req, res) => {
     res.render("pages/home");
 })
 
+app.get("/", (req, res) => {
+    res.render("pages/home");
+})
 
 
 app.get("/novels", catchAsync(async (req,res,next) => {
